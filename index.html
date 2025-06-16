@@ -58,6 +58,9 @@
         .currency {
             color: #1976d2;
         }
+        .nivel-medio {
+            background-color: #e8f5e8;
+        }
         select {
             width: 120px;
             padding: 4px;
@@ -97,7 +100,8 @@
             <ul>
                 <li>Digite o percentual entre níveis em D2 (ex: 5 para 5%)</li>
                 <li>Digite o percentual entre classes em E2 (ex: 10 para 10%)</li>
-                <li>O valor base está em E6 (R$ 4.542,73)</li>
+                <li>O valor base para Nível Básico está em E6 (R$ 4.542,73)</li>
+                <li>O valor base para Nível Médio está em E21 (R$ 5.678,77)</li>
                 <li>As fórmulas calculam automaticamente os valores para cada classe/nível</li>
             </ul>
         </div>
@@ -156,7 +160,7 @@
                     <td class="header-cell">Grupo</td>
                     <td class="header-cell">Classe/Nível</td>
                     <td class="header-cell">VB - 2025</td>
-                    <td class="header-cell" id="e5">5% e 10%</td>
+                    <td class="header-cell" id="e5">6% e 10%</td>
                 </tr>
                 <tr>
                     <td class="header-cell">6</td>
@@ -278,11 +282,132 @@
                     <td class="value-cell currency">R$ 7.258,61</td>
                     <td class="value-cell currency" id="e20">R$ 10.833,80</td>
                 </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">21</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">A-1</td>
+                    <td class="value-cell currency nivel-medio">R$ 5.678,77</td>
+                    <td class="value-cell currency nivel-medio">R$ 5.678,77</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">22</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">A-2</td>
+                    <td class="value-cell currency nivel-medio">R$ 5.792,34</td>
+                    <td class="value-cell currency nivel-medio" id="e22">R$ 5.962,90</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">23</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">A-3</td>
+                    <td class="value-cell currency nivel-medio">R$ 5.908,18</td>
+                    <td class="value-cell currency nivel-medio" id="e23">R$ 6.258,04</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">24</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">B-1</td>
+                    <td class="value-cell currency nivel-medio">R$ 6.321,77</td>
+                    <td class="value-cell currency nivel-medio" id="e24">R$ 6.883,85</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">25</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">B-2</td>
+                    <td class="value-cell currency nivel-medio">R$ 6.448,18</td>
+                    <td class="value-cell currency nivel-medio" id="e25">R$ 7.226,88</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">26</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">B-3</td>
+                    <td class="value-cell currency nivel-medio">R$ 6.577,15</td>
+                    <td class="value-cell currency nivel-medio" id="e26">R$ 7.588,31</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">27</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">C-1</td>
+                    <td class="value-cell currency nivel-medio">R$ 7.037,56</td>
+                    <td class="value-cell currency nivel-medio" id="e27">R$ 8.347,14</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">28</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">C-2</td>
+                    <td class="value-cell currency nivel-medio">R$ 7.178,32</td>
+                    <td class="value-cell currency nivel-medio" id="e28">R$ 8.767,95</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">29</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">C-3</td>
+                    <td class="value-cell currency nivel-medio">R$ 7.321,86</td>
+                    <td class="value-cell currency nivel-medio" id="e29">R$ 9.208,74</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">30</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">D-1</td>
+                    <td class="value-cell currency nivel-medio">R$ 7.834,41</td>
+                    <td class="value-cell currency nivel-medio" id="e30">R$ 10.129,61</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">31</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">D-2</td>
+                    <td class="value-cell currency nivel-medio">R$ 7.991,10</td>
+                    <td class="value-cell currency nivel-medio" id="e31">R$ 10.637,38</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">32</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">D-3</td>
+                    <td class="value-cell currency nivel-medio">R$ 8.150,92</td>
+                    <td class="value-cell currency nivel-medio" id="e32">R$ 11.170,22</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">33</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">E-1</td>
+                    <td class="value-cell currency nivel-medio">R$ 8.721,47</td>
+                    <td class="value-cell currency nivel-medio" id="e33">R$ 12.287,24</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">34</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">E-2</td>
+                    <td class="value-cell currency nivel-medio">R$ 8.895,91</td>
+                    <td class="value-cell currency nivel-medio" id="e34">R$ 12.900,47</td>
+                </tr>
+                <tr>
+                    <td class="header-cell nivel-medio">35</td>
+                    <td class="nivel-medio">2025</td>
+                    <td class="nivel-medio">NÍVEL MÉDIO</td>
+                    <td class="nivel-medio">E-3</td>
+                    <td class="value-cell currency nivel-medio">R$ 9.073,83</td>
+                    <td class="value-cell currency nivel-medio" id="e35">R$ 13.542,49</td>
+                </tr>
             </tbody>
         </table>
 
     <script>
-        const baseValue = 4542.73;
+        const baseValueBasico = 4542.73;
+        const baseValueMedio = 5678.77;
         
         function formatCurrency(value) {
             return 'R$ ' + value.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, '.').replace(/\.(\d{2})$/, ',$1');
@@ -294,8 +419,8 @@
             
             document.getElementById('e5').textContent = `${(levelPercent*100).toFixed(1)}% e ${(classPercent*100).toFixed(1)}%`;
             
-            // Calculate values
-            let currentValue = baseValue;
+            // Calculate NÍVEL BÁSICO values
+            let currentValue = baseValueBasico;
             
             // A-2 (E7)
             currentValue = currentValue * (1 + levelPercent);
@@ -352,6 +477,65 @@
             // E-3 (E20)
             currentValue = currentValue * (1 + levelPercent);
             document.getElementById('e20').textContent = formatCurrency(currentValue);
+            
+            // Calculate NÍVEL MÉDIO values
+            currentValue = baseValueMedio;
+            
+            // A-2 (E22)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e22').textContent = formatCurrency(currentValue);
+            
+            // A-3 (E23)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e23').textContent = formatCurrency(currentValue);
+            
+            // B-1 (E24) - class change
+            currentValue = currentValue * (1 + classPercent);
+            document.getElementById('e24').textContent = formatCurrency(currentValue);
+            
+            // B-2 (E25)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e25').textContent = formatCurrency(currentValue);
+            
+            // B-3 (E26)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e26').textContent = formatCurrency(currentValue);
+            
+            // C-1 (E27) - class change
+            currentValue = currentValue * (1 + classPercent);
+            document.getElementById('e27').textContent = formatCurrency(currentValue);
+            
+            // C-2 (E28)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e28').textContent = formatCurrency(currentValue);
+            
+            // C-3 (E29)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e29').textContent = formatCurrency(currentValue);
+            
+            // D-1 (E30) - class change
+            currentValue = currentValue * (1 + classPercent);
+            document.getElementById('e30').textContent = formatCurrency(currentValue);
+            
+            // D-2 (E31)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e31').textContent = formatCurrency(currentValue);
+            
+            // D-3 (E32)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e32').textContent = formatCurrency(currentValue);
+            
+            // E-1 (E33) - class change
+            currentValue = currentValue * (1 + classPercent);
+            document.getElementById('e33').textContent = formatCurrency(currentValue);
+            
+            // E-2 (E34)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e34').textContent = formatCurrency(currentValue);
+            
+            // E-3 (E35)
+            currentValue = currentValue * (1 + levelPercent);
+            document.getElementById('e35').textContent = formatCurrency(currentValue);
         }
         
         // Initialize with default calculation
